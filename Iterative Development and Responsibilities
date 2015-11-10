@@ -1,0 +1,18 @@
+Iterative Development and Responsibilities
+
+This outlines the process for the project, and assigns certain things to certain people.
+
+Make title screen appear
+Make game state appear
+Make ship moveable
+Make aliens move
+Player can shoot
+Aliens can shoot
+Register collisions (Shapte.intersects()) **Don't have to do logic yet, just register that there was a collision)
+Colision logic
+Setup lives (No need to make anything happen when lives == 0)
+Game can be lost 
+Game can be won
+**BONUS**
+Each level gets harder
+Special alien at top
