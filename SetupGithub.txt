@@ -1,0 +1,13 @@
+How to get this project to your laptop
+
+(Assuming mac/linux, all commands that don't start with "git" may be different. Just look up "how to do **Insert commmand here** in Windows")
+
+1) Install git if you never have before. Easy google.
+2) You should probably make an account on www.Github.com. Make your username and password easy to type, you'll be doing it alot.
+3) Open terminal (for Mac) / cmd (for Windows)
+4) Figure out where you want put the project. Do make it easy I'll assume you want to use the desktop
+5) Type in the following command without the quotes: "cd /Desktop"
+	* Capitalization and spaces are important!
+6) To clone the repo for the first time, type the following command:
+	"git clone https://github.com/KevinConti/SpaceInvaders.git"
+7) //Still more to do here
