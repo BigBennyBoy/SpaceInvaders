@@ -5,7 +5,7 @@ Describes the agreed upon UML Diagrams
 _____________________
 Abstract ScreenObject
 #shape : img
-+stateOfBeing : bool
++isAlive : bool
 +center : Point
 
 ____________________
@@ -30,6 +30,7 @@ fireLaser()
 
 _________________________
 Laser extends SpaceEntity
+- speed : double
 
 ____________________________
 Bunkers extends ScreenObject
