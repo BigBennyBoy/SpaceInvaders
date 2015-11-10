@@ -1,0 +1,45 @@
+UML Diagrams
+
+Describes the agreed upon UML Diagrams
+
+_____________________
+Abstract ScreenObject
+#shape : img
++stateOfBeing : bool
++center : Point
+
+____________________
+Abstract SpaceEntity extends ScreenObject
+--------------------
+abstract move()
+
+_______________________
+UFO extends SpaceEntity
++ points : int
+
+________________________
+Ship extends SpaceEntity
+------------------------
+fireLaser()
+
+_________________________
+Alien extends SpaceEntity
++points : int
+-------------------------
+fireLaser()
+
+_________________________
+Laser extends SpaceEntity
+
+____________________________
+Bunkers extends ScreenObject
+----------------------------
+getsHit()
+
+_____________________
+Screen extends JFrame
++score : int
++highScore : int
++ lives : int
+---------------------
+main()
